@@ -12,12 +12,13 @@
 [![Python](https://img.shields.io/badge/Python-3.11-3776ab?logo=python&logoColor=white)](https://python.org)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-f7df1e?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Tests: 82 Passed](https://img.shields.io/badge/Tests-82%20Passed-brightgreen)](frontend/tests)
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel&logoColor=white)](https://vercel.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?logo=vercel&logoColor=white)](https://autonomous-drone-airbase-digital-tw.vercel.app/)
 
 ---
 
 **Project Lead / Author:** **Seaman**  
-**Organization Reference:** **URO Bangladesh**
+**Organization Reference:** **URO Bangladesh**  
+🌐 **Live Interactive 3D Digital Twin:** **[https://autonomous-drone-airbase-digital-tw.vercel.app/](https://autonomous-drone-airbase-digital-tw.vercel.app/)**
 
 ---
 
@@ -237,17 +238,10 @@ pytest -q
 ```
 *(All 82/82 deterministic simulation, kinematics, and safety tests pass).*
 
-### 4. Deploy to Vercel (1-Click Setup)
-The repository is pre-configured with root [`vercel.json`](vercel.json) and [`frontend/vercel.json`](frontend/vercel.json) for instant deployment:
-1. Push your repository to your GitHub account:
-   ```bash
-   git add .
-   git commit -m "feat: enterprise autonomous drone airbase digital twin"
-   git remote add origin https://github.com/SSea-man/Autonomous-Drone-Airbase-Digital-Twin.git
-   git push -u origin main
-   ```
-2. Navigate to [Vercel](https://vercel.com/new) and click **"Import Git Repository"**.
-3. Select this repository and click **Deploy**. Vercel will automatically detect the build command (`npm run build --prefix frontend`) and output directory (`frontend/dist`) with zero manual configuration.
+### 4. Production Deployment on Vercel
+* 🌐 **Official Live URL**: **[https://autonomous-drone-airbase-digital-tw.vercel.app/](https://autonomous-drone-airbase-digital-tw.vercel.app/)**
+
+The repository is pre-configured with root [`vercel.json`](vercel.json) and [`frontend/vercel.json`](frontend/vercel.json) for automatic CI/CD deployment on push. When you push updates to `main`, Vercel automatically builds and redeploys the digital twin in under 60 seconds.
 
 ---
 

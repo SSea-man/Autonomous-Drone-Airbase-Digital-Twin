@@ -1,0 +1,41 @@
+# dependencies / builds
+node_modules/
+dist/
+.venv
+.venv/
+backend/.venv
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# environment variables & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# local sqlite databases & symlinks
+*.db
+*.db-wal
+*.db-shm
+app
+artifacts/
+
+# local working files
+*.docx
+/*.txt
+docs/DEMO.md
+docs/screenshots/
+docs/layout/layout_preview.png
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

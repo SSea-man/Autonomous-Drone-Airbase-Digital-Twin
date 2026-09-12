@@ -16,7 +16,7 @@
 
 ---
 
-**Project Lead / Author:** **Seaman**  
+**Project Lead / Author:** [**Shah Mohammed Seaman**](https://www.linkedin.com/in/smsman/)  
 **Organization Reference:** **URO Bangladesh**  
 🌐 **Live Interactive 3D Digital Twin:** **[https://autonomous-drone-airbase-digital-tw.vercel.app/](https://autonomous-drone-airbase-digital-tw.vercel.app/)**
 
